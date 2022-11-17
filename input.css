@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo+Play:wght@300;400;700&family=Jost:wght@200;400&family=Shadows+Into+Light+Two&display=swap");
 *, *::before, *::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 * {
@@ -36,7 +37,7 @@ p, h1, h2, h3, h4, h5, h6 {
 * {
   background-color: black;
   color: whitesmoke;
-  font-family: "Jost";
+  font-family: 'Jost';
 }
 
 body header {
@@ -44,31 +45,48 @@ body header {
   top: 0;
   width: 100vw;
   height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
+
 body header .logo {
   margin: auto 40px;
-  font-family: "Shadows Into Light Two";
+  font-family: 'Shadows Into Light Two';
   font-size: 48px;
   font-weight: 1000;
   color: greenyellow;
 }
+
 body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 17% 15px 15px 15px;
 }
+
 body main section {
   margin: 15px 17% 0 7%;
 }
+
 body main section a {
   display: none;
 }
+
 body .navbar {
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   width: 15%;
 }
+
 body .navbar ul {
   list-style-type: none;
   margin: 0;
@@ -79,6 +97,7 @@ body .navbar ul {
   overflow: auto;
   /* Change the link color on hover */
 }
+
 body .navbar ul li a {
   display: block;
   width: 60px;
@@ -86,20 +105,25 @@ body .navbar ul li a {
   text-align: center;
   text-decoration: none;
 }
+
 body .navbar ul li a:hover {
   color: magenta;
 }
+
 body .font-test {
   font-size: 28px;
 }
+
 body .font-test #cairo-play {
-  font-family: "Cairo Play";
+  font-family: 'Cairo Play';
 }
+
 body .font-test #jost {
-  font-family: "Jost";
+  font-family: 'Jost';
 }
+
 body .font-test #shadows-into-light {
-  font-family: "Shadows Into Light Two";
+  font-family: 'Shadows Into Light Two';
 }
 
 footer {
@@ -109,5 +133,4 @@ footer {
   height: 60px;
   text-align: center;
 }
-
-/*# sourceMappingURL=output.css.map */
+/*# sourceMappingURL=input.css.map */

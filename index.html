@@ -4,40 +4,83 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="output.css">
   <title>G. Tyler | Software Developer</title>
 </head>
 <body>
-  
-  <!-- navbar -->
+  <a name="top"></a>
+ 
   <header>
+    <span class="logo">G. Tyler</span>
+  </header>
+
+  <main>
+    <!-- navbar -->
     <nav class="navbar">
-      <div class="nav-mobile">
-        <a id="nav-toggle" href="#!"><span></span></a>
-      </div>
       <ul class="nav-list">
         <li><a href="#!">Home</a></li>
-        <li><a href="#!">About</a></li>
+        <li><a href="#about">About</a></li>
         <li>
-          <a href="#!">Portfolio</a>
-          <ul class="nav-dropdown">
-            <!-- <li><a href="#!">Web Design</a></li>
+          <a href="#projects">Projects</a>
+          <!-- <ul class="nav-dropdown">
+            <li><a href="#!">Web Design</a></li>
             <li><a href="#!">Web Development</a></li>
-            <li><a href="#!">Graphic Design</a></li> -->
-          </ul>
+            <li><a href="#!">Graphic Design</a></li>
+          </ul> -->
         </li>
-        <li><a href="#!">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li><a href="#!">Résumé</a></li>
       </ul>
     </nav>
-  </header>
-  <!-- home -->
+    <!-- home -->
 
-  <!-- about -->
+    <!-- about -->
+    <section class="about">
+      <a name="about"></a>
+      <h2 class="aboutme">About Me</h2>
+      <p class="aboutme">Here's a bunch of information that you may or may not want to know about me!<br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quisquam molestias officiis deserunt in distinctio fuga beatae porro veritatis voluptatem, quae nobis vel sunt perferendis iste amet reiciendis consequatur veniam.</p>
+    </section>
+    <!-- projects -->
 
-  <!-- projects -->
+    <section class="projects">
+      <a name="projects"></a>
+      <h2 class="projectsheader">Projects I've Worked On...</h2>
+      <p class="projectsp">
+        Here's where the fancy stuff is gonna go. A carousel for each project, which will allow the user to flip through screenshots that correspond with the display text. Information will include languages/frameworks/etc. used, what I worked on, challenges, fun parts, what I would do differently in the future, etc.
+      </p>
+    </section>
 
-  <!-- contact -->
+    <!-- contact -->
+    <section class="contact">
+      <a name="contact"></a>
+      <h2 class="contactme">Let's connect!</h2>
+      <p class="contactinfo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum officiis eaque dignissimos voluptate harum quia natus quidem pariatur fuga quaerat porro necessitatibus sit quisquam ducimus eos aliquam ullam, beatae fugit?
+      </p>
+    </section>
 
+    <!-- Font Samples - TEMP for dev only -->
+    <section>
+      <h1>Font Samples</h1>
+      <div class="font-test">
+        <p id="cairo-play">Cairo Play</p>
+        <p id="jost">Jost</p>
+        <p id="shadows-into-light">Shadows Into Light</p>
+      </div>
+    </section>
+  </main>
 </body>
+
+<footer>
+  <a href="#top">Back to top of page</a>
+  <br>
+  <script type="text/javascript">
+    var date=new Date(),
+        year = date.getFullYear(),
+        text = "Copyright " + year + " - Gail Tyler";
+   
+    document.write(text);
+   </script>
+</footer>
 </html>
