@@ -2,7 +2,6 @@
 
 <h3>Immediate goals for this portfolio</h3>
 <p>To create a responsive, streamlined user experience that showcases my front-end and design skills.</p>
-<br><br>
 
 <h3>Upcoming features</h3>
 <ul>
