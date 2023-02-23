@@ -1,0 +1,164 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@300;400;700&family=Jost:wght@200;400;600;800&family=Shadows+Into+Light+Two&display=swap');
+// font-family: 'Cairo Play', cursive;
+// font-family: 'Jost', sans-serif;
+// font-family: 'Shadows Into Light Two', cursive;
+
+:root {
+  --red: #F91B27;
+  --yellow: #FFEE8A;
+  --green: #54C179;
+  --white: azure;
+}
+
+
+// CSS Reset, courtesy of Josh W. Comeau https://www.joshwcomeau.com/css/custom-css-reset/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font-size: 22px;
+}
+
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+// Styling
+* {
+  background-color: black;
+  color: azure;
+  font-family: 'Jost', sans-serif;
+}
+
+main {
+  padding: 50px 160px;
+}
+
+h1 {
+  font-family: 'Cairo Play', cursive;
+  font-size: 40px;
+  padding: 30px 0px 10px 0px;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+p {
+  padding: 10px 35px 10px 20px;
+}
+
+a {
+  font-family: 'Cairo Play', cursive;
+  text-decoration: none;
+  color: var(--red);
+}
+
+a:hover {
+  color: var(--yellow);
+}
+
+
+#intro {
+  font-size: 70px;
+  font-weight: 800;
+  letter-spacing: .05em;
+  padding: 20px 0px;
+}
+
+.card {
+  padding: 40px 40px;
+  display: inline-block;
+}
+
+#footer {
+  font-family: 'Cairo Play', cursive;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px auto;
+}
+
+// Navbar styling
+nav {
+  text-align: center;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin: 0px 10px;
+      padding: 20px;
+      
+      :hover {
+        border-bottom: 2px solid var(--green);
+      }
+
+      a {
+        font-family: 'Cairo Play', cursive;
+        color: var(--white);
+      }
+    }
+  }
+}
+
+
+// Responsive design
+@media (max-width: 767px) {
+  main {
+    padding: 15px 20px;
+  }
+
+  #intro {
+    font-size: 40px;
+  }
+
+  li {
+    padding: 5px;
+    margin: 0px 4px;
+  }
+}
+
+
+
+// Font samples
+// #cairo-play {
+//   font-family: 'Cairo Play', cursive;
+// }
+
+// #jost {
+//   font-family: 'Jost', sans-serif;
+// }
+
+// #shadows-into-light {
+//   font-family: 'Shadows Into Light Two', cursive;
+// }
+
