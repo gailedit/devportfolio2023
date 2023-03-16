@@ -92,6 +92,27 @@ a:hover {
   padding: 20px 0px;
 }
 
+.watch {
+  display: block;
+  margin: 20px 50px;
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  object-position: 100% 70%;
+  border-radius: 14px;
+  border: 3px solid azure;
+  opacity: 85%;
+  // box-shadow: 
+  //   0 0 3px 3px azure,
+  //   0 0 10px 4px var(--yellow);
+}
+
+.watch:hover {
+  box-shadow: 
+  0 0 3px 3px azure,
+  0 0 10px 4px var(--yellow);
+}
+
 .card {
   padding: 40px 40px;
   display: inline-block;
