@@ -66,18 +66,19 @@ h1 {
   padding: 30px 0px 10px 0px;
 }
 
-h3 {
-  font-weight: 600;
-}
-
 p {
   padding: 10px 35px 10px 20px;
+}
+
+.larger {
+  font-weight: 600;
 }
 
 a {
   font-family: 'Cairo Play', cursive;
   text-decoration: none;
   color: var(--red);
+  transition: .3s ease-in-out
 }
 
 a:hover {
@@ -102,7 +103,7 @@ a:hover {
   border-radius: 14px;
   border: 3px solid azure;
   opacity: 85%;
-  transition: .3s ease-out;
+  transition: .25s ease-out;
 }
 
 .watch:hover {
@@ -136,6 +137,7 @@ nav {
       display: inline-block;
       margin: 0px 10px;
       padding: 20px;
+      transition: opacity .25s;
       
       :hover {
         border-bottom: 2px solid var(--green);
