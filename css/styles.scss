@@ -66,6 +66,10 @@ h1 {
   padding: 30px 0px 10px 0px;
 }
 
+h2 {
+  color: var(--red);
+}
+
 p {
   padding: 10px 35px 10px 20px;
 }
@@ -93,29 +97,37 @@ a:hover {
   padding: 20px 0px;
 }
 
-.watch {
-  display: block;
-  margin: 20px 50px;
-  width: 320px;
-  height: 320px;
-  object-fit: cover;
-  object-position: 100% 70%;
-  border-radius: 14px;
-  border: 3px solid azure;
-  opacity: 85%;
-  transition: .25s ease-out;
-}
+// .watch {
+//   display: block;
+//   margin: 20px 50px;
+//   width: 320px;
+//   height: 320px;
+//   object-fit: cover;
+//   object-position: 100% 70%;
+//   border-radius: 14px;
+//   border: 3px solid azure;
+//   opacity: 85%;
+//   transition: .25s ease-out;
+// }
 
-.watch:hover {
-  -webkit-box-shadow: 0px 0px 35px 19px rgba(255,238,138,0.57), 0px 0px 9px 6px rgba(255,255,246,0.59); 
-box-shadow: 0px 0px 35px 19px rgba(255,238,138,0.57), 0px 0px 9px 6px rgba(255,255,246,0.59);
-  transition: .4s ease-in;
-}
+// .watch:hover {
+//   -webkit-box-shadow: 0px 0px 35px 19px rgba(255,238,138,0.57), 0px 0px 9px 6px rgba(255,255,246,0.59); 
+// box-shadow: 0px 0px 35px 19px rgba(255,238,138,0.57), 0px 0px 9px 6px rgba(255,255,246,0.59);
+//   transition: .4s ease-in;
+// }
 
 .card {
   padding: 40px 40px;
   display: inline-block;
+  height: 20vh;
+  // border: 1px solid yellow;
+
+  img.project {
+    width:fit-content;
+  }
 }
+
+
 
 #footer {
   font-family: 'Cairo Play', cursive;
